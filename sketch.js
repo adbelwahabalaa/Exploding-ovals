@@ -25,16 +25,16 @@ function draw() {
         clear();
         fill(staticTextColor);
         text('Hello and Welcome to Exploding Ovals' , windowWidth / 2 ,  windowHeight / 3)
-        text('Here is how the game works :' , windowWidth / 2 ,  windowHeight / 3)
-        text('Try to hit the ' , windowWidth / 2 ,  windowHeight / 3)
-        text('ovals with the same ' , windowWidth / 2 ,  windowHeight / 3 + 50)
-        text('color as the (score) word on the top of the screen ', windowWidth / 2 ,  windowHeight / 3 + 100)
-        text('Every time you miss ' , windowWidth / 2,  windowHeight / 3 + 150)
-        text('a right colored oval or misclick' , windowWidth / 2,  windowHeight / 3 + 200)
-        text('you lose a point', windowWidth / 2,  windowHeight / 3 + 250)
-        text('Dont let your score to 0 or its Game Over', windowWidth / 2 ,  windowHeight / 3 +  300)
-        text('How fast can you go !!', windowWidth / 2 ,  windowHeight / 3 + 350)
-        text('Click to start', windowWidth / 2 ,  windowHeight / 3 + 350)
+        text('Here is how the game works :' , windowWidth / 2 ,  windowHeight / 3+50)
+        text('Try to hit the ' , windowWidth / 2 ,  windowHeight / 3+100)
+        text('ovals with the same ' , windowWidth / 2 ,  windowHeight / 3 + 150)
+        text('color as the (score) word on the top of the screen ', windowWidth / 2 ,  windowHeight / 3 + 200)
+        text('Every time you miss ' , windowWidth / 2,  windowHeight / 3 + 250)
+        text('a right colored oval or misclick' , windowWidth / 2,  windowHeight / 3 + 300)
+        text('you lose a point', windowWidth / 2,  windowHeight / 3 + 350)
+        text('Dont let your score drop to 0 or its Game Over', windowWidth / 2 ,  windowHeight / 3 +  400)
+        text('How fast can you go !!', windowWidth / 2 ,  windowHeight / 3 + 450)
+        text('Click to start', windowWidth / 2 ,  windowHeight / 3 + 500)
     }
     if (game.getCurrentGameState() === game.gameState.open) {
         clear();

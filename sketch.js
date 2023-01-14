@@ -24,7 +24,7 @@ function draw() {
     if(game.getCurrentGameState() === game.gameState.start) {
         clear();
         fill(staticTextColor);
-        text('Hello and Welcome to Exploding Ovals' , windowWidth ,  windowHeight / 3)
+        text('Welcome to Exploding Ovals' , windowWidth ,  windowHeight / 3)
         text('Here is how the game works :' , windowWidth  ,  windowHeight / 3)
         text('Try to hit the ' , windowWidth / 2 ,  windowHeight / 3)
         text('ovals with the same ' , windowWidth / 2 ,  windowHeight / 3 + 50)

@@ -24,15 +24,15 @@ function draw() {
     if(game.getCurrentGameState() === game.gameState.start) {
         clear();
         fill(staticTextColor);
-        text('Hello and Wlcome to Exploding Ovals' , windowWidth / 2 ,  windowHeight / 3)
-        text('Here is how the game works :' , windowWidth / 2 ,  windowHeight / 3)
+        text('Hello and Welcome to Exploding Ovals' , windowWidth ,  windowHeight / 3)
+        text('Here is how the game works :' , windowWidth  ,  windowHeight / 3)
         text('Try to hit the ' , windowWidth / 2 ,  windowHeight / 3)
         text('ovals with the same ' , windowWidth / 2 ,  windowHeight / 3 + 50)
         text('color as "the score" word ', windowWidth / 2 ,  windowHeight / 3 + 100)
         text('Every time you miss ' , windowWidth / 2,  windowHeight / 3 + 150)
-        text('an right colored oval or misclick' , windowWidth / 2,  windowHeight / 3 + 200)
+        text('an right colored oval or misclick' , windowWidth ,  windowHeight / 3 + 200)
         text('you lose a point', windowWidth / 2,  windowHeight / 3 + 250)
-        text('Dont let your score to 0 or its Game Over', windowWidth / 2 ,  windowHeight / 3 +  300)
+        text('Dont let your score to 0 or its Game Over', windowWidth  ,  windowHeight / 3 +  300)
         text('How fast can you go !!', windowWidth / 2 ,  windowHeight / 3 + 350)
         text('Click to start', windowWidth / 2 ,  windowHeight / 3 + 350)
     }

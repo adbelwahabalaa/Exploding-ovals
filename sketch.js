@@ -25,8 +25,8 @@ function draw() {
         clear();
         fill(staticTextColor);
         text('Hello and Welcome to Exploding Ovals' , windowWidth / 2 ,  windowHeight / 3)
-        text('Here is how the game works :' , windowWidth / 2 ,  windowHeight / 3+50)
-        text('Try to hit the ' , windowWidth / 2 ,  windowHeight / 3+100)
+        text('Here is how the game works :' , windowWidth / 2 ,  windowHeight / 3 + 50)
+        text('Try to hit the ' , windowWidth / 2 ,  windowHeight / 3 + 100)
         text('ovals with the same ' , windowWidth / 2 ,  windowHeight / 3 + 150)
         text('color as the (score) word on the top of the screen ', windowWidth / 2 ,  windowHeight / 3 + 200)
         text('Every time you miss ' , windowWidth / 2,  windowHeight / 3 + 250)

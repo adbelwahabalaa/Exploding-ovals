@@ -13,7 +13,7 @@ function setup() {
     noStroke();
     game.setupColors();
     game.setupOvals();
-    isMobileClient() ? gameText.setTextSize(15): gameText.setTextSize(32);
+    isMobileClient() ? gameText.setTextSize(15): gameText.setTextSize(22);
     gameText.setupFont();
     game.setRightColor(game.getRandomColorFromAvailableColors()) ;
     gameText.setTextColor(game.getRightColor());
@@ -24,17 +24,17 @@ function draw() {
     if(game.getCurrentGameState() === game.gameState.start) {
         clear();
         fill(staticTextColor);
-        text('Hello and Welcome to Exploding Ovals' , windowWidth / 2 , )
-        text('Here is how the game works :' , windowWidth / 2 ,  windowHeight / 2)
-        text('Try to hit the ' , windowWidth / 2 ,  windowHeight / 2)
-        text('ovals with the same ' , windowWidth / 2 ,  windowHeight / 2 + 50)
-        text('color as the (score) word on the top of the screen ', windowWidth / 2 ,  windowHeight / 2 + 100)
-        text('Every time you miss ' , windowWidth / 2,  windowHeight / 2 + 150)
-        text('a right colored oval or misclick' , windowWidth / 2,  windowHeight / 2 + 200)
-        text('you lose a point', windowWidth / 2,  windowHeight / 2 + 250)
-        text('Dont let your score to 0 or its Game Over', windowWidth / 2 ,  windowHeight / 2 +  300)
-        text('How fast can you go !!', windowWidth / 2 ,  windowHeight / 2 + 350)
-        text('Click to start', windowWidth / 2 ,  windowHeight / 2 + 350)
+        text('Hello and Welcome to Exploding Ovals' , windowWidth / 2 ,  windowHeight / 3)
+        text('Here is how the game works :' , windowWidth / 2 ,  windowHeight / 3)
+        text('Try to hit the ' , windowWidth / 2 ,  windowHeight / 3)
+        text('ovals with the same ' , windowWidth / 2 ,  windowHeight / 3 + 50)
+        text('color as the (score) word on the top of the screen ', windowWidth / 2 ,  windowHeight / 3 + 100)
+        text('Every time you miss ' , windowWidth / 2,  windowHeight / 3 + 150)
+        text('a right colored oval or misclick' , windowWidth / 2,  windowHeight / 3 + 200)
+        text('you lose a point', windowWidth / 2,  windowHeight / 3 + 250)
+        text('Dont let your score to 0 or its Game Over', windowWidth / 2 ,  windowHeight / 3 +  300)
+        text('How fast can you go !!', windowWidth / 2 ,  windowHeight / 3 + 350)
+        text('Click to start', windowWidth / 2 ,  windowHeight / 3 + 350)
     }
     if (game.getCurrentGameState() === game.gameState.open) {
         clear();
